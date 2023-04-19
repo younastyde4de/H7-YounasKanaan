@@ -30,6 +30,7 @@
         {
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.YencoButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button2
@@ -52,11 +53,21 @@
             this.label1.Text = "Dit is mijn wijzeging mijn naam is younas kanaan de derde";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // YencoButton
+            // 
+            this.YencoButton.Location = new System.Drawing.Point(538, 264);
+            this.YencoButton.Name = "YencoButton";
+            this.YencoButton.Size = new System.Drawing.Size(223, 23);
+            this.YencoButton.TabIndex = 3;
+            this.YencoButton.Text = "Dit is de wijziging van yenco";
+            this.YencoButton.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.YencoButton);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Name = "Form1";
@@ -70,6 +81,7 @@
 
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button YencoButton;
     }
 }
 
